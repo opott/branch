@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DDFFD9;
+    font-family: Lora, sans-serif;
+    line-height: 25px;
+}
+
+.hero {
+    background-color: #FDD8A5;
+    height: 330px;
+    text-align: center;
+}
+
+.hero img {
+    height: 250px;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.content {
+    margin: 10px;
+}
+
+p {
+    font-size: 22.5px;
+}
+
+.post-content {
+    justify-self: center;
+    text-align: center;
+    background-color: #FDD8A5;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.post-content p {
+    list-style: none;
+    line-height: 15px;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #FC8AF0;
+    border-radius: 10px;
+    padding: 3px;
+    color: inherit;
+}
+
+h1, h2 {
+    font-family: DynaPuff, cursive;
+}
+
+hr {
+    border-top: 4px solid #FC8AF0;
+    border-radius: 100px;
+}
+
+.footer {
+    background-color: #FC8AF0;
+    text-align: center;
+    padding: 3px 0;
+    line-height: 5px;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: inherit;
+}
